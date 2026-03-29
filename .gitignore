@@ -1,3 +1,19 @@
+# Claude Code
+.claude/
+
+# PyInstaller output
+dist/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Model & engine binaries (too large for git)
+model/
+engine/
+
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
